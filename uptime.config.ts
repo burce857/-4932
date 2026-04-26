@@ -26,7 +26,6 @@ const workerConfig: WorkerConfig = {
       name: '主網站 / Main Website',
       method: 'GET',
       target: 'https://china.rbxl.ccwu.cc/',
-      tooltip: 'China Airlines ROBLOX 官方網站',
       expectedCodes: [200],
     },
     {
@@ -34,7 +33,6 @@ const workerConfig: WorkerConfig = {
       name: '圖片資源 / Assets',
       method: 'GET',
       target: 'https://assets-5xm.pages.dev/IMG_7021-removebg-preview.png',
-      tooltip: 'Cloudflare Pages 圖片資源',
       expectedCodes: [200],
     },
     {
@@ -52,13 +50,8 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200, 301, 302],
     },
   ],
-
-  notification: {
-    timeZone: 'Asia/Taipei',
-  },
 };
 
-/* 維護模式 */
-const maintenances: any[] = [];
+const maintenances = [];
 
 export { pageConfig, workerConfig, maintenances };
