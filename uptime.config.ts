@@ -2,7 +2,6 @@ import type { PageConfig, WorkerConfig } from './types/config';
 
 const pageConfig: PageConfig = {
   title: 'China Airlines ROBLOX Status',
-  icon: 'https://assets-5xm.pages.dev/IMG_7021-removebg-preview.png',
   links: [
     {
       link: 'https://china.rbxl.ccwu.cc/',
@@ -43,7 +42,6 @@ const workerConfig: WorkerConfig = {
       name: 'Discord 招募連結',
       method: 'GET',
       target: 'https://discord.gg/BeR2Xn92pB',
-      tooltip: 'Discord 邀請連結狀態',
       expectedCodes: [200, 301, 302],
     },
     {
@@ -51,7 +49,6 @@ const workerConfig: WorkerConfig = {
       name: 'Roblox 群組',
       method: 'GET',
       target: 'https://www.roblox.com/communities/33984181/China-Airlines#!/about',
-      tooltip: 'Roblox 官方群組頁面',
       expectedCodes: [200, 301, 302],
     },
   ],
@@ -62,7 +59,6 @@ const workerConfig: WorkerConfig = {
   },
 };
 
-/* 維護模式（可留空） */
 const maintenances: any[] = [];
 
 export { pageConfig, workerConfig, maintenances };
