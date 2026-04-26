@@ -54,11 +54,11 @@ const workerConfig: WorkerConfig = {
   ],
 
   notification: {
-    title: 'China Airlines ROBLOX Status Alert',
     timeZone: 'Asia/Taipei',
   },
 };
 
+/* 維護模式 */
 const maintenances: any[] = [];
 
 export { pageConfig, workerConfig, maintenances };
