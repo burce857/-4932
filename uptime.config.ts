@@ -63,4 +63,6 @@ const workerConfig: WorkerConfig = {
   },
 };
 
-export { pageConfig, workerConfig };
+const maintenances = [];
+
+export { pageConfig, workerConfig, maintenances };
