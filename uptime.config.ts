@@ -2,7 +2,6 @@ import type { PageConfig, WorkerConfig } from './types/config';
 
 const pageConfig: PageConfig = {
   title: 'China Airlines ROBLOX Status',
-  description: '中華航空 ROBLOX 虛擬航空系統狀態頁',
   icon: 'https://assets-5xm.pages.dev/IMG_7021-removebg-preview.png',
   links: [
     {
@@ -28,7 +27,7 @@ const workerConfig: WorkerConfig = {
       name: '主網站 / Main Website',
       method: 'GET',
       target: 'https://china.rbxl.ccwu.cc/',
-      tooltip: 'China Airlines ROBLOX 官方介紹網站',
+      tooltip: 'China Airlines ROBLOX 官方網站',
       expectedCodes: [200],
     },
     {
@@ -63,6 +62,7 @@ const workerConfig: WorkerConfig = {
   },
 };
 
+/* 維護模式（可留空） */
 const maintenances: any[] = [];
 
 export { pageConfig, workerConfig, maintenances };
