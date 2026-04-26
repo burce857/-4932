@@ -52,6 +52,6 @@ const workerConfig: WorkerConfig = {
   ],
 };
 
-const maintenances = [];
+const maintenances: any[] = [];
 
 export { pageConfig, workerConfig, maintenances };
