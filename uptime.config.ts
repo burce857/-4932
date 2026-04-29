@@ -35,7 +35,7 @@ const workerConfig: WorkerConfig = {
       id: 'assets_pages',
       name: '圖片資源 / Assets',
       method: 'GET',
-      target: 'https://assets-5xm.pages.dev/IMG_7021-removebg-preview.png',
+      target: 'https://assets.rbxl.ccwu.cc//IMG_7021-removebg-preview.png',
       tooltip: 'Cloudflare Pages 圖片資源',
       expectedCodes: [200],
     },
